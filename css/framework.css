@@ -5,6 +5,7 @@
 
    [class*="col-"] {
     float: left;
+    position: relative;
    }
     
    .row::after {

@@ -11,17 +11,23 @@
 /* altezza e colore ai bordi */
 .b-color {
     border: black solid 1px;
-    padding: 90px 0;
-    text-align: center;
+    height: 200px;
+    
 }
 
 .nested{
     background-color: rgb(240, 127, 128);
-    padding: 80px 0;
+    height: 180px;
     border: white solid 1px;
-    margin: -81px 0;
 }
 
 .row-nested{
-    padding: 0 10px;
+    padding:  10px;
+}
+
+.testo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
 }
