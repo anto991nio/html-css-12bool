@@ -12,7 +12,8 @@
     display: table;
     clear: both;
    }
-   
+
+   /* Colonne */
    .col-1 {
     width: calc( 100% / 12);
    }
